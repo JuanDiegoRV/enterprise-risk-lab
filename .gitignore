@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+.tools/
+.m2-local/
+
+# Build output
+frontend/dist/
+backend/target/
+
+# Local configuration and secrets
+frontend/.env.local
+frontend/.env.*.local
+backend/.env
+*.key
+*.pem
+
+# IDE and OS files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
